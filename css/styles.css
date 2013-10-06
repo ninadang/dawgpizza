@@ -1,0 +1,67 @@
+@import url("reset.css");
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Pathway+Gothic+One|Roboto:400,700,400italic,300italic,300);
+
+
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../img/grunge1.jpg);
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+
+.company{
+	color: #FFF;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif; 
+	font-size: 60px;
+	padding: 40px;
+	margin: 10px;
+	background-color: #000;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.sidebar{
+	float: left;
+	width: 200px;
+	padding: 20px;
+	
+}
+
+.content-box{
+	float: left;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+.pizza{
+	padding: 10px;
+}
+
+nav ul{
+	padding: 5px;
+}
+
+nav li{
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+	
+}
+
+nav a {
+	padding: 10px;
+	background-color: #000;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+nav a:hover{
+	background-color: #FF9D45;
+}
