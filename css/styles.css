@@ -1,20 +1,41 @@
 @import url("reset.css");
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Pathway+Gothic+One|Roboto:400,700,400italic,300italic,300);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Pathway+Gothic+One|Ubuntu+Condensed|Roboto:400,700,400italic,300italic,300);
 
 
 body {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;
 	background-image: url(../img/grunge1.jpg);
-    font-size: 18px;
+	background-repeat: repeat;
     padding: 30px;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 70px;
+    color: #FFF;
+}
+
+.address{
+	font-size: 22px;
 }
 
 
+
+.phrase{
+	padding: 20px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.footer{
+	/*border-top: solid;
+	border-width: 1px; */
+	line-height: 25px;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+}
+
 .company{
-	color: #FFF;
 	text-align: center;
 	font-family: 'Fjalla One', sans-serif; 
 	font-size: 60px;
@@ -33,14 +54,14 @@ body {
 }
 
 .content-box{
+	background-color: #000;
 	float: left;
-	margin-left: 75px;
-	margin-top: 20px;
+	margin-left: 80px;
+	margin-top: 30px;
+	width: 900px;
+	text-align: center;
 }
 
-.pizza{
-	padding: 10px;
-}
 
 nav ul{
 	padding: 5px;
@@ -55,6 +76,7 @@ nav li{
 
 nav a {
 	padding: 10px;
+	padding-right: 20px;
 	background-color: #000;
 	color: #FFF;
 	text-decoration: none;
@@ -63,5 +85,71 @@ nav a {
 }
 
 nav a:hover{
-	background-color: #FF9D45;
+	background-color: #8243D6;
+}
+
+a{
+	color: #8243D6;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.media{
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+}
+
+h2{
+	font-size: 28px;
+	color: #8243D6;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+
+.bio{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.menu{
+	background-color: #000;
+	float: left;
+	margin-left: 80px;
+	margin-top: 30px;
+	width: 900px;
+	text-align: center;
+}
+
+dl{
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+dt{
+	font-size: 20px;
+	padding: 10px;
+}
+
+dd{
+	padding: 5px;
+}
+
+.sizes{
+	font-size: 20px;
+	padding: 10px;
+}
+.custom{
+	padding: 10px;
+	color: #8243D6;
+	font-size: 20px;
+}
+
+.foodtype{
+	padding-bottom: 30px;
 }
