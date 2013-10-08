@@ -42,7 +42,7 @@ body {
 	padding: 40px;
 	margin: 10px;
 	background-color: #000;
-	width: 200px;
+	width: 200px; 
 	border-radius: 10px;
 }
 
@@ -50,6 +50,7 @@ body {
 	float: left;
 	width: 200px;
 	padding: 20px;
+
 	
 }
 
@@ -58,10 +59,17 @@ body {
 	float: left;
 	margin-left: 80px;
 	margin-top: 30px;
-	width: 900px;
+	width: 45%;
+	min-width: 500px;
 	text-align: center;
+	position:absolute;
+	left: 350px;
+	top: 50px;
 }
 
+.pizza {
+	width: 100%
+}
 
 nav ul{
 	padding: 5px;
